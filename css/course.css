@@ -1,0 +1,23 @@
+.bghelp3 {
+    background-image: url("../IMAGES/bg/bg5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+.custom-shape-divider-bottom-1608022188 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1608022188 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 329px;
+}
+
+.custom-shape-divider-bottom-1608022188 .shape-fill {
+    fill: #FFFFFF;
+}

@@ -1,0 +1,5 @@
+1.   font-family: 'Chivo', sans-serif;            ==> All Paragraph
+2.   font-family: 'Dancing Script', cursive;      ==> Footer CopyRight Section 
+3.   font-family: 'Fredoka One', cursive;         ==> All Button
+4.   font-family: 'Stick', sans-serif;            ==> For Name SNP ZONE
+5.   font-family: 'Lobster', cursive;             ==> All Sub Heading 

@@ -1,0 +1,284 @@
+/* ==========================================================================
+Hero Area
+========================================================================== */
+
+#hero-area {
+    background-image: url("../images/bg/bg1.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    position: relative;
+    overflow: hidden;
+    padding: 180px 0 80px;
+    /* height: 100vh !important; */
+}
+
+#hero-area .contents .head-title {
+    color: #222222;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+#hero-area .contents .header-button {
+    margin-top: 20px;
+    color: #222222;
+}
+
+#hero-area .contents .header-button .btn {
+    margin-right: 10px;
+}
+
+.sloder-img {
+    background: #34363a;
+}
+
+.btn1 {
+    background-color: #F63854;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffff;
+}
+
+.btn1:hover {
+    color: #F63854;
+    background-color: #fff;
+}
+
+.btn2 {
+    border-radius: 30px;
+    padding: 10px 30px;
+    /* color: #ffff; */
+}
+
+.btn2:hover {
+    background-color: #F63854 !important;
+    color: #ffff;
+    /* background-color: #fff; */
+}
+
+.ptop-5 {
+    padding-top: 10rem !important;
+}
+
+
+/* Manage Statistics section start */
+
+.manage {
+    background-color: #f9f9f9;
+}
+
+
+/* Manage Statistics section end */
+
+
+/* Features Section statrt  */
+
+.icon1 {
+    color: #F63854;
+    margin-top: 1.5rem !important;
+}
+
+
+/* Features Section end  */
+
+
+/* PRICING Section Start */
+
+.rounded-lg {
+    border-radius: 1rem !important
+}
+
+.text-small {
+    font-size: 0.9rem !important
+}
+
+.pricing {
+    color: #fff
+}
+
+.custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem
+}
+
+.text-uppercase {
+    letter-spacing: 0.2em
+}
+
+.btn-warning {
+    color: #fff
+}
+
+.btn-warning:hover {
+    color: #fff
+}
+
+
+/* PRICING Section end  */
+
+
+/* testimonials  Section Start */
+
+.testimonials {
+    background-color: #f638551c !important;
+}
+
+#demo {
+    background: linear-gradient(112deg, #ffffff 50%, #ff92a3 50%);
+    max-width: 900px;
+    margin: auto;
+    border-radius: 50% !important;
+    border-bottom: 2rem solid #ff183b !important;
+    border-left: 2rem solid #ff183b !important;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-caption img {
+    width: 6rem !important;
+    border-radius: 5rem !important;
+    margin-top: 2rem !important;
+}
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem;
+    }
+}
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+@media(max-width:767px) {
+    i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
+
+
+/* testimonials  Section end */
+
+
+/* Contact section start  */
+
+.text-muted {
+    font-size: 13px;
+    font-weight: bold
+}
+
+.form-title {
+    font-weight: bold
+}
+
+.form-group label {
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 5px;
+    color: #828282
+}
+
+.form-control {
+    border: none;
+    border-radius: 20px;
+    background: rgba(165, 147, 69, 0.075);
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2)
+}
+
+.btn3 {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 10px;
+    background-color: rgba(56, 147, 243, 0.67);
+    text-align: center;
+    border-radius: 5px
+}
+
+.form-control:focus {
+    color: #495057;
+    border-color: #fff !important;
+    outline: 0;
+    box-shadow: 0 1px 1px 1px rgba(0, 123, 255, .25) !important
+}
+
+
+/* Contact section end  */
+
+
+/* footer sectgion start */
+
+.sectionfooter {
+    background-color: #dfeefd !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.endsection {
+    background-color: rgb(85, 84, 84);
+}
+
+.endsection2 {
+    font-size: 2rem;
+    font-weight: bolder !important;
+}
+
+.colorend {
+    color: turquoise;
+}
+
+
+/* footer sectgion end */

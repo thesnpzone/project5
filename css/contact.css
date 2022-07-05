@@ -1,0 +1,37 @@
+.bghelp7 {
+    background-image: url("../IMAGES/bg/bg7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+.custom-shape-divider-bottom-1608022188 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1608022188 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 329px;
+}
+
+.custom-shape-divider-bottom-1608022188 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.circle {
+    position: relative;
+    top: -83px;
+    background-color: rgb(97, 17, 202);
+}
+
+.circle:hover {
+    background: #ED4082;
+    background: -webkit-radial-gradient(bottom right, #ED4082, #0E6199);
+    background: -moz-radial-gradient(bottom right, #ED4082, #0E6199);
+    background: radial-gradient(to top left, #ED4082, #0E6199);
+    transition: 3s !important;
+}
